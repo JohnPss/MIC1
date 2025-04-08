@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\JoaoPedro\simulation\qsim
+vdecoder_2x4
+Z1 INAMc[n]H>EJhaj]a7L1>N2
+Z2 VLJ>oRNNT8Id?D]62njeJ`3
+Z3 dC:\Users\Aluno\JoaoPedro\simulation\qsim
+Z4 w1743711201
+Z5 8MIC1.vo
+Z6 FMIC1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|MIC1.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 nRSJ`kKAWI01ldO92gDng0
+!s85 0
+Z11 !s108 1743711201.846000
+Z12 !s107 MIC1.vo|
+!s101 -O0
+vdecoder_2x4_vlg_check_tst
+!i10b 1
+Z13 !s100 D<D2>`aCj00dFRGJK9?Wi3
+Z14 I_QgZBBWUUT>FX[SM^5FBg1
+Z15 VLfdb_3H`Og9]1VgMnS7id1
+R3
+Z16 w1743711200
+Z17 8MIC1.vt
+Z18 FMIC1.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1743711201.995000
+Z20 !s107 MIC1.vt|
+Z21 !s90 -work|work|MIC1.vt|
+!s101 -O0
+R9
+vdecoder_2x4_vlg_sample_tst
+!i10b 1
+Z22 !s100 9Jl>ddNX6PMnl5XmdVj]41
+Z23 I68A?IYQ;m<1gVNz>8c7Vb2
+Z24 VQ`hfT9bENWHRnQz=@8kn01
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vdecoder_2x4_vlg_vec_tst
+!i10b 1
+Z25 !s100 lQAH`V:G4@eM7^i9UT7XP2
+Z26 IJb=ILIUEA4U=W`jl?U>Cc3
+Z27 V0[gj^F2SJ863R3bgh^DQ63
+R3
+R16
+R17
+R18
+Z28 L0 235
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
