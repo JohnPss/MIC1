@@ -1,6 +1,6 @@
 # Laboratório de Arquitetura e Organização de Computadores I (LAOC1)
 
-Este repositório contém os projetos desenvolvidos para a disciplina de Laboratório de Arquitetura e Organização de Computadores I (LAOC1).
+Este repositório contém os projetos desenvolvidos para a disciplina de Laboratório de Arquitetura e Organização de Computadores I (LAOC1), coordenada pelo Professor Christian Herrera.
 
 ## Equipe
 - João Siqueira
