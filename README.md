@@ -22,4 +22,6 @@ Este projeto foi desenvolvido como parte do curso de LAOC1. Contribuições dos 
 
 ---
 
+
+
 © 2025 - João Siqueira, João Romualdo, Ahmed Hachem
