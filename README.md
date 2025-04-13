@@ -13,7 +13,7 @@ LAOC1 (Laboratório de Arquitetura e Organização de Computadores I) é uma dis
 
 ## Tecnologias Utilizadas
 
-- Quartus II 13.0
+- Quartus II 13.0.
 - FPGA Cyclone II
   
 ## Contribuições
