@@ -1,5 +1,5 @@
 Simulator report for MIC1
-Thu May 15 18:05:08 2025
+Mon Jun 02 18:05:11 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -38,40 +38,48 @@ applicable agreement for further details.
 
 
 
-+-------------------+
-; Simulator Summary ;
-+------+------------+
-; Type ; Value      ;
-+------+------------+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 64 nodes     ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulator Settings                                                                                                                                 ;
-+--------------------------------------------------------------------------------------------+---------------------------------------+---------------+
-; Option                                                                                     ; Setting                               ; Default Value ;
-+--------------------------------------------------------------------------------------------+---------------------------------------+---------------+
-; Simulation mode                                                                            ; Functional                            ; Timing        ;
-; Start time                                                                                 ; 0 ns                                  ; 0 ns          ;
-; Simulation results format                                                                  ; VWF                                   ;               ;
-; Vector input source                                                                        ; D:/AOC Ahmed mais novo++/ULA_1bit.vwf ;               ;
-; Add pins automatically to simulation output waveforms                                      ; On                                    ; On            ;
-; Check outputs                                                                              ; Off                                   ; Off           ;
-; Report simulation coverage                                                                 ; On                                    ; On            ;
-; Display complete 1/0 value coverage report                                                 ; On                                    ; On            ;
-; Display missing 1-value coverage report                                                    ; On                                    ; On            ;
-; Display missing 0-value coverage report                                                    ; On                                    ; On            ;
-; Detect setup and hold time violations                                                      ; Off                                   ; Off           ;
-; Detect glitches                                                                            ; Off                                   ; Off           ;
-; Disable timing delays in Timing Simulation                                                 ; Off                                   ; Off           ;
-; Generate Signal Activity File                                                              ; Off                                   ; Off           ;
-; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                   ; Off           ;
-; Group bus channels in simulation results                                                   ; Off                                   ; Off           ;
-; Preserve fewer signal transitions to reduce memory requirements                            ; On                                    ; On            ;
-; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                            ; INPUT_EDGE    ;
-; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                   ; Off           ;
-; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                   ;               ;
-; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                  ; Auto          ;
-+--------------------------------------------------------------------------------------------+---------------------------------------+---------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                           ;
++--------------------------------------------------------------------------------------------+---------------------------------+---------------+
+; Option                                                                                     ; Setting                         ; Default Value ;
++--------------------------------------------------------------------------------------------+---------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                      ; Timing        ;
+; Start time                                                                                 ; 0 ns                            ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                             ;               ;
+; Vector input source                                                                        ; D:/aHMED MUITO NOVO/SHIFTER.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                              ; On            ;
+; Check outputs                                                                              ; Off                             ; Off           ;
+; Report simulation coverage                                                                 ; On                              ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                              ; On            ;
+; Display missing 1-value coverage report                                                    ; On                              ; On            ;
+; Display missing 0-value coverage report                                                    ; On                              ; On            ;
+; Detect setup and hold time violations                                                      ; Off                             ; Off           ;
+; Detect glitches                                                                            ; Off                             ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                             ; Off           ;
+; Generate Signal Activity File                                                              ; Off                             ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                             ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                             ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                              ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                      ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                             ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                             ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                            ; Auto          ;
++--------------------------------------------------------------------------------------------+---------------------------------+---------------+
 
 
 +----------------------+
@@ -81,11 +89,19 @@ Waveform report data cannot be output to ASCII.
 Please use Quartus II 64-Bit to view the waveform report data.
 
 
-+------------------+
-; Coverage Summary ;
-+------+-----------+
-; Type ; Value     ;
-+------+-----------+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 64           ;
+; Total output ports checked                          ; 56           ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 56           ;
+; Total output ports with no 1-value coverage         ; 56           ;
+; Total output ports with no 0-value coverage         ; 56           ;
++-----------------------------------------------------+--------------+
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
@@ -97,19 +113,133 @@ The following table displays output ports that toggle between 1 and 0 during sim
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+-------------------------------------------------+
-; Missing 1-Value Coverage                        ;
-+-----------+------------------+------------------+
-; Node Name ; Output Port Name ; Output Port Type ;
-+-----------+------------------+------------------+
++------------------------------------------------------+
+; Missing 1-Value Coverage                             ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |Shifter|O[31] ; |Shifter|O[31]   ; pin_out          ;
+; |Shifter|O[30] ; |Shifter|O[30]   ; pin_out          ;
+; |Shifter|O[29] ; |Shifter|O[29]   ; pin_out          ;
+; |Shifter|O[28] ; |Shifter|O[28]   ; pin_out          ;
+; |Shifter|O[27] ; |Shifter|O[27]   ; pin_out          ;
+; |Shifter|O[26] ; |Shifter|O[26]   ; pin_out          ;
+; |Shifter|O[25] ; |Shifter|O[25]   ; pin_out          ;
+; |Shifter|O[24] ; |Shifter|O[24]   ; pin_out          ;
+; |Shifter|O[23] ; |Shifter|O[23]   ; pin_out          ;
+; |Shifter|O[22] ; |Shifter|O[22]   ; pin_out          ;
+; |Shifter|O[21] ; |Shifter|O[21]   ; pin_out          ;
+; |Shifter|O[20] ; |Shifter|O[20]   ; pin_out          ;
+; |Shifter|O[19] ; |Shifter|O[19]   ; pin_out          ;
+; |Shifter|O[18] ; |Shifter|O[18]   ; pin_out          ;
+; |Shifter|O[17] ; |Shifter|O[17]   ; pin_out          ;
+; |Shifter|O[16] ; |Shifter|O[16]   ; pin_out          ;
+; |Shifter|O[15] ; |Shifter|O[15]   ; pin_out          ;
+; |Shifter|O[14] ; |Shifter|O[14]   ; pin_out          ;
+; |Shifter|O[13] ; |Shifter|O[13]   ; pin_out          ;
+; |Shifter|O[12] ; |Shifter|O[12]   ; pin_out          ;
+; |Shifter|O[11] ; |Shifter|O[11]   ; pin_out          ;
+; |Shifter|O[10] ; |Shifter|O[10]   ; pin_out          ;
+; |Shifter|O[9]  ; |Shifter|O[9]    ; pin_out          ;
+; |Shifter|O[8]  ; |Shifter|O[8]    ; pin_out          ;
+; |Shifter|O[7]  ; |Shifter|O[7]    ; pin_out          ;
+; |Shifter|O[6]  ; |Shifter|O[6]    ; pin_out          ;
+; |Shifter|O[5]  ; |Shifter|O[5]    ; pin_out          ;
+; |Shifter|O[4]  ; |Shifter|O[4]    ; pin_out          ;
+; |Shifter|O[3]  ; |Shifter|O[3]    ; pin_out          ;
+; |Shifter|O[2]  ; |Shifter|O[2]    ; pin_out          ;
+; |Shifter|O[1]  ; |Shifter|O[1]    ; pin_out          ;
+; |Shifter|O[0]  ; |Shifter|O[0]    ; pin_out          ;
+; |Shifter|A[23] ; |Shifter|A[23]   ; out              ;
+; |Shifter|A[22] ; |Shifter|A[22]   ; out              ;
+; |Shifter|A[21] ; |Shifter|A[21]   ; out              ;
+; |Shifter|A[20] ; |Shifter|A[20]   ; out              ;
+; |Shifter|A[19] ; |Shifter|A[19]   ; out              ;
+; |Shifter|A[18] ; |Shifter|A[18]   ; out              ;
+; |Shifter|A[17] ; |Shifter|A[17]   ; out              ;
+; |Shifter|A[16] ; |Shifter|A[16]   ; out              ;
+; |Shifter|A[15] ; |Shifter|A[15]   ; out              ;
+; |Shifter|A[14] ; |Shifter|A[14]   ; out              ;
+; |Shifter|A[13] ; |Shifter|A[13]   ; out              ;
+; |Shifter|A[12] ; |Shifter|A[12]   ; out              ;
+; |Shifter|A[11] ; |Shifter|A[11]   ; out              ;
+; |Shifter|A[10] ; |Shifter|A[10]   ; out              ;
+; |Shifter|A[9]  ; |Shifter|A[9]    ; out              ;
+; |Shifter|A[8]  ; |Shifter|A[8]    ; out              ;
+; |Shifter|A[7]  ; |Shifter|A[7]    ; out              ;
+; |Shifter|A[6]  ; |Shifter|A[6]    ; out              ;
+; |Shifter|A[5]  ; |Shifter|A[5]    ; out              ;
+; |Shifter|A[4]  ; |Shifter|A[4]    ; out              ;
+; |Shifter|A[3]  ; |Shifter|A[3]    ; out              ;
+; |Shifter|A[2]  ; |Shifter|A[2]    ; out              ;
+; |Shifter|A[1]  ; |Shifter|A[1]    ; out              ;
+; |Shifter|A[0]  ; |Shifter|A[0]    ; out              ;
++----------------+------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+-------------------------------------------------+
-; Missing 0-Value Coverage                        ;
-+-----------+------------------+------------------+
-; Node Name ; Output Port Name ; Output Port Type ;
-+-----------+------------------+------------------+
++------------------------------------------------------+
+; Missing 0-Value Coverage                             ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |Shifter|O[31] ; |Shifter|O[31]   ; pin_out          ;
+; |Shifter|O[30] ; |Shifter|O[30]   ; pin_out          ;
+; |Shifter|O[29] ; |Shifter|O[29]   ; pin_out          ;
+; |Shifter|O[28] ; |Shifter|O[28]   ; pin_out          ;
+; |Shifter|O[27] ; |Shifter|O[27]   ; pin_out          ;
+; |Shifter|O[26] ; |Shifter|O[26]   ; pin_out          ;
+; |Shifter|O[25] ; |Shifter|O[25]   ; pin_out          ;
+; |Shifter|O[24] ; |Shifter|O[24]   ; pin_out          ;
+; |Shifter|O[23] ; |Shifter|O[23]   ; pin_out          ;
+; |Shifter|O[22] ; |Shifter|O[22]   ; pin_out          ;
+; |Shifter|O[21] ; |Shifter|O[21]   ; pin_out          ;
+; |Shifter|O[20] ; |Shifter|O[20]   ; pin_out          ;
+; |Shifter|O[19] ; |Shifter|O[19]   ; pin_out          ;
+; |Shifter|O[18] ; |Shifter|O[18]   ; pin_out          ;
+; |Shifter|O[17] ; |Shifter|O[17]   ; pin_out          ;
+; |Shifter|O[16] ; |Shifter|O[16]   ; pin_out          ;
+; |Shifter|O[15] ; |Shifter|O[15]   ; pin_out          ;
+; |Shifter|O[14] ; |Shifter|O[14]   ; pin_out          ;
+; |Shifter|O[13] ; |Shifter|O[13]   ; pin_out          ;
+; |Shifter|O[12] ; |Shifter|O[12]   ; pin_out          ;
+; |Shifter|O[11] ; |Shifter|O[11]   ; pin_out          ;
+; |Shifter|O[10] ; |Shifter|O[10]   ; pin_out          ;
+; |Shifter|O[9]  ; |Shifter|O[9]    ; pin_out          ;
+; |Shifter|O[8]  ; |Shifter|O[8]    ; pin_out          ;
+; |Shifter|O[7]  ; |Shifter|O[7]    ; pin_out          ;
+; |Shifter|O[6]  ; |Shifter|O[6]    ; pin_out          ;
+; |Shifter|O[5]  ; |Shifter|O[5]    ; pin_out          ;
+; |Shifter|O[4]  ; |Shifter|O[4]    ; pin_out          ;
+; |Shifter|O[3]  ; |Shifter|O[3]    ; pin_out          ;
+; |Shifter|O[2]  ; |Shifter|O[2]    ; pin_out          ;
+; |Shifter|O[1]  ; |Shifter|O[1]    ; pin_out          ;
+; |Shifter|O[0]  ; |Shifter|O[0]    ; pin_out          ;
+; |Shifter|A[23] ; |Shifter|A[23]   ; out              ;
+; |Shifter|A[22] ; |Shifter|A[22]   ; out              ;
+; |Shifter|A[21] ; |Shifter|A[21]   ; out              ;
+; |Shifter|A[20] ; |Shifter|A[20]   ; out              ;
+; |Shifter|A[19] ; |Shifter|A[19]   ; out              ;
+; |Shifter|A[18] ; |Shifter|A[18]   ; out              ;
+; |Shifter|A[17] ; |Shifter|A[17]   ; out              ;
+; |Shifter|A[16] ; |Shifter|A[16]   ; out              ;
+; |Shifter|A[15] ; |Shifter|A[15]   ; out              ;
+; |Shifter|A[14] ; |Shifter|A[14]   ; out              ;
+; |Shifter|A[13] ; |Shifter|A[13]   ; out              ;
+; |Shifter|A[12] ; |Shifter|A[12]   ; out              ;
+; |Shifter|A[11] ; |Shifter|A[11]   ; out              ;
+; |Shifter|A[10] ; |Shifter|A[10]   ; out              ;
+; |Shifter|A[9]  ; |Shifter|A[9]    ; out              ;
+; |Shifter|A[8]  ; |Shifter|A[8]    ; out              ;
+; |Shifter|A[7]  ; |Shifter|A[7]    ; out              ;
+; |Shifter|A[6]  ; |Shifter|A[6]    ; out              ;
+; |Shifter|A[5]  ; |Shifter|A[5]    ; out              ;
+; |Shifter|A[4]  ; |Shifter|A[4]    ; out              ;
+; |Shifter|A[3]  ; |Shifter|A[3]    ; out              ;
+; |Shifter|A[2]  ; |Shifter|A[2]    ; out              ;
+; |Shifter|A[1]  ; |Shifter|A[1]    ; out              ;
+; |Shifter|A[0]  ; |Shifter|A[0]    ; out              ;
++----------------+------------------+------------------+
 
 
 +---------------------+
@@ -125,26 +255,119 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Simulator
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu May 15 18:05:08 2025
+    Info: Processing started: Mon Jun 02 18:05:09 2025
 Info: Command: quartus_sim --simulation_results_format=VWF MIC1 -c MIC1
-Info (324025): Using vector source file "D:/AOC Ahmed mais novo++/ULA_1bit.vwf"
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "CIN" in design.
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "COUT" in design.
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "ENA" in design.
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "ENB" in design.
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "F0" in design.
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "F1" in design.
-Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INVA" in design.
-Warning (328016): Wrong node type and/or width for node "|ULA_32bit|A" in vector source file. Node in design is of type Bus and of width 32, but node in vector source file is of type 9-Level and of width 1.
-Error (328001): Can't simulate mismatched node types
-Warning (328016): Wrong node type and/or width for node "|ULA_32bit|B" in vector source file. Node in design is of type Bus and of width 32, but node in vector source file is of type 9-Level and of width 1.
-Error (328001): Can't simulate mismatched node types
-Warning (328016): Wrong node type and/or width for node "|ULA_32bit|OUTPUT" in vector source file. Node in design is of type Bus and of width 32, but node in vector source file is of type 9-Level and of width 1.
-Error (328001): Can't simulate mismatched node types
-Error: Quartus II 64-Bit Simulator was unsuccessful. 3 errors, 10 warnings
-    Error: Peak virtual memory: 4446 megabytes
-    Error: Processing ended: Thu May 15 18:05:08 2025
-    Error: Elapsed time: 00:00:00
-    Error: Total CPU time (on all processors): 00:00:00
+Info (324025): Using vector source file "D:/aHMED MUITO NOVO/SHIFTER.vwf"
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[31]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[30]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[29]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[28]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[27]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[26]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[25]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[24]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[23]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[22]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[21]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[20]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[19]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[18]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[17]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[16]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[15]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[14]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[13]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[12]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[11]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[10]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[9]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[8]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[7]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[6]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[5]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[4]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[3]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[2]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[1]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "INPUT[0]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[31]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[30]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[29]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[28]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[27]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[26]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[25]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[24]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[23]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[22]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[21]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[20]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[19]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[18]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[17]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[16]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[15]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[14]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[13]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[12]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[11]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[10]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[9]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[8]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[7]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[6]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[5]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[4]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[3]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[2]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[1]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "OUTPUT[0]" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "N" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "Z" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "SLL8" in design.
+Warning (328013): Ignored node in vector source file. Can't find corresponding node name "SRA1" in design.
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[31]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[30]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[29]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[28]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[27]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[26]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[25]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[24]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[23]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[22]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[21]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[20]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[19]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[18]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[17]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[16]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[15]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[14]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[13]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[12]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[11]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[10]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[9]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[8]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[7]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[6]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[5]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[4]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[3]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[2]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[1]"
+Warning (328012): Can't find signal in vector source file for input pin "|Shifter|A[0]"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is       0.00 %
+Info (328052): Number of transitions in simulation is 0
+Info (324045): Vector file MIC1.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 100 warnings
+    Info: Peak virtual memory: 4446 megabytes
+    Info: Processing ended: Mon Jun 02 18:05:11 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:00
 
 
