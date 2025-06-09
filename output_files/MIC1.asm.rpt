@@ -1,5 +1,5 @@
 Assembler report for MIC1
-Mon Jun 02 18:04:49 2025
+Thu Jun 05 17:27:17 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/aHMED MUITO NOVO/output_files/MIC1.sof
-  6. Assembler Device Options: D:/aHMED MUITO NOVO/output_files/MIC1.pof
+  5. Assembler Device Options: I:/aHMED MUITO NOVO/output_files/MIC1.sof
+  6. Assembler Device Options: I:/aHMED MUITO NOVO/output_files/MIC1.pof
   7. Assembler Messages
 
 
@@ -38,9 +38,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Jun 02 18:04:49 2025 ;
+; Assembler Status      ; Successful - Thu Jun 05 17:27:17 2025 ;
 ; Revision Name         ; MIC1                                  ;
-; Top-level Entity Name ; Shifter                               ;
+; Top-level Entity Name ; ULA_32bit                             ;
 ; Family                ; Cyclone II                            ;
 ; Device                ; EP2C5F256C6                           ;
 +-----------------------+---------------------------------------+
@@ -83,30 +83,30 @@ applicable agreement for further details.
 +-------------------------------------------+
 ; File Name                                 ;
 +-------------------------------------------+
-; D:/aHMED MUITO NOVO/output_files/MIC1.sof ;
-; D:/aHMED MUITO NOVO/output_files/MIC1.pof ;
+; I:/aHMED MUITO NOVO/output_files/MIC1.sof ;
+; I:/aHMED MUITO NOVO/output_files/MIC1.pof ;
 +-------------------------------------------+
 
 
 +---------------------------------------------------------------------+
-; Assembler Device Options: D:/aHMED MUITO NOVO/output_files/MIC1.sof ;
+; Assembler Device Options: I:/aHMED MUITO NOVO/output_files/MIC1.sof ;
 +----------------+----------------------------------------------------+
 ; Option         ; Setting                                            ;
 +----------------+----------------------------------------------------+
 ; Device         ; EP2C5F256C6                                        ;
-; JTAG usercode  ; 0x00074B1E                                         ;
-; Checksum       ; 0x00074B1E                                         ;
+; JTAG usercode  ; 0x00098F61                                         ;
+; Checksum       ; 0x00098F61                                         ;
 +----------------+----------------------------------------------------+
 
 
 +---------------------------------------------------------------------+
-; Assembler Device Options: D:/aHMED MUITO NOVO/output_files/MIC1.pof ;
+; Assembler Device Options: I:/aHMED MUITO NOVO/output_files/MIC1.pof ;
 +--------------------+------------------------------------------------+
 ; Option             ; Setting                                        ;
 +--------------------+------------------------------------------------+
 ; Device             ; EPCS4                                          ;
 ; JTAG usercode      ; 0x00000000                                     ;
-; Checksum           ; 0x07520EE8                                     ;
+; Checksum           ; 0x074BE985                                     ;
 ; Compression Ratio  ; 3                                              ;
 +--------------------+------------------------------------------------+
 
@@ -117,14 +117,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Jun 02 18:04:46 2025
+    Info: Processing started: Thu Jun 05 17:27:12 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off MIC1 -c MIC1
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4552 megabytes
-    Info: Processing ended: Mon Jun 02 18:04:49 2025
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4543 megabytes
+    Info: Processing ended: Thu Jun 05 17:27:17 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:01
 
 
