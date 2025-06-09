@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIC1
-Thu Jun 05 17:26:57 2025
+Mon Jun 09 17:28:23 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,16 +41,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Jun 05 17:26:55 2025           ;
+; Analysis & Synthesis Status        ; Successful - Mon Jun 09 17:28:23 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MIC1                                            ;
-; Top-level Entity Name              ; ULA_32bit                                       ;
+; Top-level Entity Name              ; Shifter                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 221                                             ;
-;     Total combinational functions  ; 221                                             ;
+; Total logic elements               ; 55                                              ;
+;     Total combinational functions  ; 55                                              ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 102                                             ;
+; Total pins                         ; 66                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                                      ; ULA_32bit          ; MIC1               ;
+; Top-level entity name                                                      ; Shifter            ; MIC1               ;
 ; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -148,130 +148,60 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 4      ;
+; Number detected on machine ; 12     ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                      ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------+---------+
-; decoder_2x4.bdf                  ; yes             ; User Block Diagram/Schematic File  ; I:/aHMED MUITO NOVO/decoder_2x4.bdf     ;         ;
-; full_adder_1bit.bdf              ; yes             ; User Block Diagram/Schematic File  ; I:/aHMED MUITO NOVO/full_adder_1bit.bdf ;         ;
-; ULA_1bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; I:/aHMED MUITO NOVO/ULA_1bit.bdf        ;         ;
-; ULA_8bit.bdf                     ; yes             ; User Block Diagram/Schematic File  ; I:/aHMED MUITO NOVO/ULA_8bit.bdf        ;         ;
-; ULA_32bit.bdf                    ; yes             ; User Block Diagram/Schematic File  ; I:/aHMED MUITO NOVO/ULA_32bit.bdf       ;         ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                    ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
+; decoder_2x4.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/decoder_2x4.bdf ;         ;
+; Shifter.bdf                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/Shifter.bdf     ;         ;
+; SRA1.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/SRA1.bdf        ;         ;
+; SLL8.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/SLL8.bdf        ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                             ;
-+---------------------------------------------+-----------------------------------------------------------+
-; Resource                                    ; Usage                                                     ;
-+---------------------------------------------+-----------------------------------------------------------+
-; Estimated Total logic elements              ; 221                                                       ;
-;                                             ;                                                           ;
-; Total combinational functions               ; 221                                                       ;
-; Logic element usage by number of LUT inputs ;                                                           ;
-;     -- 4 input functions                    ; 131                                                       ;
-;     -- 3 input functions                    ; 43                                                        ;
-;     -- <=2 input functions                  ; 47                                                        ;
-;                                             ;                                                           ;
-; Logic elements by mode                      ;                                                           ;
-;     -- normal mode                          ; 221                                                       ;
-;     -- arithmetic mode                      ; 0                                                         ;
-;                                             ;                                                           ;
-; Total registers                             ; 0                                                         ;
-;     -- Dedicated logic registers            ; 0                                                         ;
-;     -- I/O registers                        ; 0                                                         ;
-;                                             ;                                                           ;
-; I/O pins                                    ; 102                                                       ;
-; Embedded Multiplier 9-bit elements          ; 0                                                         ;
-; Maximum fan-out node                        ; ULA_8bit:inst6|ULA_1bit:inst6|decoder_2x4:decoder|inst5~0 ;
-; Maximum fan-out                             ; 65                                                        ;
-; Total fan-out                               ; 779                                                       ;
-; Average fan-out                             ; 2.41                                                      ;
-+---------------------------------------------+-----------------------------------------------------------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 55    ;
+;                                             ;       ;
+; Total combinational functions               ; 55    ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 55    ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 55    ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 66    ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; SLL8  ;
+; Maximum fan-out                             ; 55    ;
+; Total fan-out                               ; 252   ;
+; Average fan-out                             ; 2.08  ;
++---------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                    ;
-+---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node            ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                 ; Library Name ;
-+---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------+--------------+
-; |ULA_32bit                            ; 221 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 102  ; 0            ; |ULA_32bit                                                          ; work         ;
-;    |ULA_8bit:inst5|                   ; 58 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5                                           ; work         ;
-;       |ULA_1bit:inst2|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst2                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst2|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst3|                ; 9 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst3                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst3|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst4|                ; 9 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst4                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst4|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst5|                ; 7 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst5                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst5|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst6|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst6                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst6|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst7|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst7                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst7|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst8|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst8                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst8|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst|                 ; 9 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst5|ULA_1bit:inst|full_adder_1bit:full_adder  ; work         ;
-;    |ULA_8bit:inst6|                   ; 55 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6                                           ; work         ;
-;       |ULA_1bit:inst2|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst2                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst2|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst3|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst3                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst3|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst4|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst4                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst4|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst5|                ; 8 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst5                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst5|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst6|                ; 10 (4)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst6                            ; work         ;
-;          |decoder_2x4:decoder|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst6|decoder_2x4:decoder        ; work         ;
-;          |full_adder_1bit:full_adder| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst6|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst7|                ; 7 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst7                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst7|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst8|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst8                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst8|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst|                 ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst6|ULA_1bit:inst|full_adder_1bit:full_adder  ; work         ;
-;    |ULA_8bit:inst7|                   ; 54 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7                                           ; work         ;
-;       |ULA_1bit:inst2|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst2                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst2|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst3|                ; 9 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst3                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst3|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst4|                ; 7 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst4                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst4|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst5|                ; 7 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst5                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst5|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst6|                ; 9 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst6                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst6|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst7|                ; 5 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst7                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst7|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst8|                ; 5 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst8                            ; work         ;
-;          |full_adder_1bit:full_adder| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst8|full_adder_1bit:full_adder ; work         ;
-;       |ULA_1bit:inst|                 ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst7|ULA_1bit:inst|full_adder_1bit:full_adder  ; work         ;
-;    |ULA_8bit:inst|                    ; 54 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst                                            ; work         ;
-;       |ULA_1bit:inst2|                ; 8 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst2                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst2|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst3|                ; 9 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst3                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst3|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst4|                ; 8 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst4                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst4|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst5|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst5                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst5|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst6|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst6                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst6|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst7|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst7                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst7|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst8|                ; 6 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst8                             ; work         ;
-;          |full_adder_1bit:full_adder| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst8|full_adder_1bit:full_adder  ; work         ;
-;       |ULA_1bit:inst|                 ; 5 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst                              ; work         ;
-;          |full_adder_1bit:full_adder| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ULA_32bit|ULA_8bit:inst|ULA_1bit:inst|full_adder_1bit:full_adder   ; work         ;
-+---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |Shifter                   ; 55 (55)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 66   ; 0            ; |Shifter            ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -295,7 +225,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -305,7 +235,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Jun 05 17:26:43 2025
+    Info: Processing started: Mon Jun 09 17:28:22 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIC1 -c MIC1
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file decoder_2x4.bdf
@@ -327,21 +257,24 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
     Info (12023): Found entity 1: Register_8bit
 Info (12021): Found 1 design units, including 1 entities, in source file register_32bit.bdf
     Info (12023): Found entity 1: Register_32bit
-Info (12127): Elaborating entity "ULA_32bit" for the top level hierarchy
-Info (12128): Elaborating entity "ULA_8bit" for hierarchy "ULA_8bit:inst"
-Info (12128): Elaborating entity "ULA_1bit" for hierarchy "ULA_8bit:inst|ULA_1bit:inst8"
-Info (12128): Elaborating entity "decoder_2x4" for hierarchy "ULA_8bit:inst|ULA_1bit:inst8|decoder_2x4:decoder"
-Info (12128): Elaborating entity "full_adder_1bit" for hierarchy "ULA_8bit:inst|ULA_1bit:inst8|full_adder_1bit:full_adder"
+Info (12021): Found 1 design units, including 1 entities, in source file sra1.bdf
+    Info (12023): Found entity 1: SRA1
+Info (12021): Found 1 design units, including 1 entities, in source file sll8.bdf
+    Info (12023): Found entity 1: SLL8
+Info (12127): Elaborating entity "Shifter" for the top level hierarchy
+Info (12128): Elaborating entity "SRA1" for hierarchy "SRA1:inst1"
+Info (12128): Elaborating entity "decoder_2x4" for hierarchy "decoder_2x4:inst"
+Info (12128): Elaborating entity "SLL8" for hierarchy "SLL8:inst2"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 323 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 70 input pins
+Info (21057): Implemented 121 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 34 input pins
     Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 221 logic cells
+    Info (21061): Implemented 55 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4577 megabytes
-    Info: Processing ended: Thu Jun 05 17:26:58 2025
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4587 megabytes
+    Info: Processing ended: Mon Jun 09 17:28:23 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
