@@ -163,6 +163,22 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 1040 1128 1216 1144)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "COUT" (rect 90 0 120 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 824 432 992 624)
 	(text "ULA_8bit" (rect 5 0 56 14)(font "Arial" (font_size 8)))
@@ -750,4 +766,16 @@ applicable agreement for further details.
 	(text "CIN" (rect 786 448 806 460)(font "Arial" ))
 	(pt 824 464)
 	(pt 768 464)
+)
+(connector
+	(pt 992 1128)
+	(pt 1032 1128)
+)
+(connector
+	(pt 1032 1128)
+	(pt 1032 1136)
+)
+(connector
+	(pt 1032 1136)
+	(pt 1040 1136)
 )

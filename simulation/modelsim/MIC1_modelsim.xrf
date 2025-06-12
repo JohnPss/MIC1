@@ -1,11 +1,9 @@
 vendor_name = ModelSim
+source_file = 1, D:/aHMED MUITO NOVO/ULA_32bit_OR.vwf
+source_file = 1, D:/aHMED MUITO NOVO/ULA_32bit_CONSTANTS.vwf
+source_file = 1, D:/aHMED MUITO NOVO/ULA_32bit_AND.vwf
+source_file = 1, D:/aHMED MUITO NOVO/ULA_32bit_ADD.vwf
 source_file = 1, D:/aHMED MUITO NOVO/SHIFTER.vwf
-source_file = 1, D:/aHMED MUITO NOVO/ULA_8bit_OR.vwf
-source_file = 1, D:/aHMED MUITO NOVO/ULA_8bit_CONSTANTS.vwf
-source_file = 1, D:/aHMED MUITO NOVO/ULA_8bit_AND.vwf
-source_file = 1, D:/aHMED MUITO NOVO/ULA_8bit_ADD.vwf
-source_file = 1, D:/aHMED MUITO NOVO/ULA_8bit.vwf
-source_file = 1, I:/REGISTER8bit.vwf
 source_file = 1, D:/aHMED MUITO NOVO/ULA_1bit.vwf
 source_file = 1, D:/aHMED MUITO NOVO/decoder_2x4.bdf
 source_file = 1, D:/aHMED MUITO NOVO/decoder_2x4.vwf

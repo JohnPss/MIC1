@@ -1,4 +1,4 @@
-|Shifter
+|SHIFTER
 OUTPUT[0] <= inst6[0].DB_MAX_OUTPUT_PORT_TYPE
 OUTPUT[1] <= inst6[1].DB_MAX_OUTPUT_PORT_TYPE
 OUTPUT[2] <= inst6[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -131,7 +131,7 @@ SRA1 => decoder_2x4:inst.I0
 SLL8 => decoder_2x4:inst.I1
 
 
-|Shifter|SRA1:inst1
+|SHIFTER|SRA1:inst1
 OUT[0] <= IN[1].DB_MAX_OUTPUT_PORT_TYPE
 OUT[1] <= IN[2].DB_MAX_OUTPUT_PORT_TYPE
 OUT[2] <= IN[3].DB_MAX_OUTPUT_PORT_TYPE
@@ -199,7 +199,7 @@ IN[31] => OUT[30].DATAIN
 IN[31] => OUT[31].DATAIN
 
 
-|Shifter|decoder_2x4:inst
+|SHIFTER|decoder_2x4:inst
 O0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 I0 => inst.IN0
 I0 => inst4.IN0
@@ -214,7 +214,7 @@ O2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
 O3 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Shifter|SLL8:inst9
+|SHIFTER|SLL8:inst9
 OUT[0] <= inst1[0].DB_MAX_OUTPUT_PORT_TYPE
 OUT[1] <= inst1[1].DB_MAX_OUTPUT_PORT_TYPE
 OUT[2] <= inst1[2].DB_MAX_OUTPUT_PORT_TYPE
