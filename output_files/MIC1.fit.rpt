@@ -1,6 +1,6 @@
 Fitter report for MIC1
-Mon Jun 09 17:28:25 2025
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Thu Jun 12 13:32:21 2025
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -59,8 +59,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Mon Jun 09 17:28:25 2025           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Fitter Status                      ; Successful - Thu Jun 12 13:32:21 2025           ;
+; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MIC1                                            ;
 ; Top-level Entity Name              ; Shifter                                         ;
 ; Family                             ; Cyclone II                                      ;
@@ -175,7 +175,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/output_files/MIC1.pin.
+The pin-out file can be found in D:/aHMED MUITO NOVO/output_files/MIC1.pin.
 
 
 +-------------------------------------------------------------------+
@@ -218,7 +218,7 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )       ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )       ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%        ;
-; Peak interconnect usage (total/H/V)         ; 0% / 0% / 0%        ;
+; Peak interconnect usage (total/H/V)         ; 0% / 0% / 1%        ;
 ; Maximum fan-out                             ; 55                  ;
 ; Highest non-global fan-out                  ; 55                  ;
 ; Total fan-out                               ; 252                 ;
@@ -301,40 +301,40 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 +-----------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; Name      ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +-----------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
-; INPUT[0]  ; K16   ; 3        ; 28           ; 6            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[10] ; N15   ; 3        ; 28           ; 3            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[11] ; R13   ; 4        ; 24           ; 0            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[12] ; N12   ; 3        ; 28           ; 1            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[13] ; P5    ; 4        ; 1            ; 0            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[14] ; T11   ; 4        ; 14           ; 0            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[15] ; R8    ; 4        ; 9            ; 0            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[16] ; P12   ; 4        ; 21           ; 0            ; 3           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[17] ; T13   ; 4        ; 24           ; 0            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[18] ; M14   ; 3        ; 28           ; 5            ; 4           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[19] ; K15   ; 3        ; 28           ; 6            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[1]  ; L14   ; 3        ; 28           ; 5            ; 3           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[20] ; L8    ; 4        ; 9            ; 0            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[21] ; P2    ; 1        ; 0            ; 2            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[22] ; L4    ; 1        ; 0            ; 2            ; 3           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[23] ; P4    ; 4        ; 3            ; 0            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[24] ; R9    ; 4        ; 12           ; 0            ; 0           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[25] ; K10   ; 4        ; 19           ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[26] ; T12   ; 4        ; 21           ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[27] ; G16   ; 3        ; 28           ; 9            ; 2           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[28] ; T9    ; 4        ; 12           ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[29] ; T5    ; 4        ; 5            ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[2]  ; F15   ; 3        ; 28           ; 9            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[30] ; T3    ; 4        ; 1            ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[31] ; L7    ; 4        ; 9            ; 0            ; 3           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[0]  ; H12   ; 3        ; 28           ; 8            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[10] ; M12   ; 3        ; 28           ; 1            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[11] ; N16   ; 3        ; 28           ; 4            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[12] ; T12   ; 4        ; 21           ; 0            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[13] ; P12   ; 4        ; 21           ; 0            ; 3           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[14] ; C11   ; 2        ; 19           ; 14           ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[15] ; C12   ; 2        ; 24           ; 14           ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[16] ; D15   ; 3        ; 28           ; 11           ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[17] ; D13   ; 3        ; 28           ; 12           ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[18] ; K16   ; 3        ; 28           ; 6            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[19] ; M15   ; 3        ; 28           ; 4            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[1]  ; N12   ; 3        ; 28           ; 1            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[20] ; R12   ; 4        ; 21           ; 0            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[21] ; T10   ; 4        ; 19           ; 0            ; 3           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[22] ; L9    ; 4        ; 17           ; 0            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[23] ; G16   ; 3        ; 28           ; 9            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[24] ; G13   ; 3        ; 28           ; 11           ; 3           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[25] ; E14   ; 3        ; 28           ; 12           ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[26] ; F16   ; 3        ; 28           ; 10           ; 3           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[27] ; L14   ; 3        ; 28           ; 5            ; 3           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[28] ; P13   ; 4        ; 21           ; 0            ; 2           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[29] ; T9    ; 4        ; 12           ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[2]  ; N15   ; 3        ; 28           ; 3            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[30] ; K10   ; 4        ; 19           ; 0            ; 1           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[31] ; N11   ; 4        ; 19           ; 0            ; 0           ; 2                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; INPUT[3]  ; P14   ; 3        ; 28           ; 3            ; 3           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[4]  ; M12   ; 3        ; 28           ; 1            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[4]  ; R14   ; 4        ; 26           ; 0            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 ; INPUT[5]  ; L12   ; 4        ; 24           ; 0            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[6]  ; N11   ; 4        ; 19           ; 0            ; 0           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[7]  ; N10   ; 4        ; 14           ; 0            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[8]  ; G11   ; 2        ; 19           ; 14           ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; INPUT[9]  ; G15   ; 3        ; 28           ; 9            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SLL8      ; T8    ; 4        ; 9            ; 0            ; 1           ; 55                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SRA1      ; R12   ; 4        ; 21           ; 0            ; 0           ; 55                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[6]  ; T13   ; 4        ; 24           ; 0            ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[7]  ; C13   ; 2        ; 26           ; 14           ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[8]  ; H11   ; 3        ; 28           ; 10           ; 1           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; INPUT[9]  ; L15   ; 3        ; 28           ; 5            ; 2           ; 3                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; SLL8      ; G12   ; 3        ; 28           ; 10           ; 0           ; 55                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; SRA1      ; G11   ; 2        ; 19           ; 14           ; 2           ; 55                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
 +-----------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
@@ -343,51 +343,51 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 +------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name       ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; OUTPUT[0]  ; J12   ; 3        ; 28           ; 8            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[10] ; N16   ; 3        ; 28           ; 4            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[11] ; M11   ; 4        ; 26           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[12] ; L11   ; 4        ; 26           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[13] ; R14   ; 4        ; 26           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[14] ; P11   ; 4        ; 17           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[15] ; N9    ; 4        ; 14           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[16] ; R11   ; 4        ; 14           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[17] ; M16   ; 3        ; 28           ; 4            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[18] ; L15   ; 3        ; 28           ; 5            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[19] ; P15   ; 3        ; 28           ; 3            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[1]  ; H12   ; 3        ; 28           ; 8            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[20] ; R5    ; 4        ; 5            ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[21] ; T4    ; 4        ; 3            ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[22] ; N8    ; 4        ; 7            ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[23] ; R7    ; 4        ; 7            ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[24] ; P13   ; 4        ; 21           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[25] ; R10   ; 4        ; 17           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[26] ; L10   ; 4        ; 17           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[27] ; L16   ; 3        ; 28           ; 5            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[28] ; R3    ; 4        ; 1            ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[29] ; T7    ; 4        ; 7            ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[2]  ; M15   ; 3        ; 28           ; 4            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[30] ; R4    ; 4        ; 3            ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[31] ; T6    ; 4        ; 7            ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[3]  ; T14   ; 4        ; 26           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[0]  ; F15   ; 3        ; 28           ; 9            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[10] ; P16   ; 3        ; 28           ; 3            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[11] ; L11   ; 4        ; 26           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[12] ; R13   ; 4        ; 24           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[13] ; L10   ; 4        ; 17           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[14] ; C14   ; 3        ; 28           ; 12           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[15] ; D14   ; 3        ; 28           ; 12           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[16] ; D16   ; 3        ; 28           ; 11           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[17] ; E16   ; 3        ; 28           ; 12           ; 4           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[18] ; L16   ; 3        ; 28           ; 5            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[19] ; K15   ; 3        ; 28           ; 6            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[1]  ; M11   ; 4        ; 26           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[20] ; R11   ; 4        ; 14           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[21] ; K11   ; 4        ; 19           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[22] ; N10   ; 4        ; 14           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[23] ; A14   ; 2        ; 26           ; 14           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[24] ; B13   ; 2        ; 24           ; 14           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[25] ; H13   ; 3        ; 28           ; 11           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[26] ; G15   ; 3        ; 28           ; 9            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[27] ; M14   ; 3        ; 28           ; 5            ; 4           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[28] ; B10   ; 2        ; 17           ; 14           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[29] ; N9    ; 4        ; 14           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[2]  ; T14   ; 4        ; 26           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[30] ; T11   ; 4        ; 14           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[31] ; P11   ; 4        ; 17           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[3]  ; P15   ; 3        ; 28           ; 3            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; OUTPUT[4]  ; N13   ; 3        ; 28           ; 2            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[5]  ; A10   ; 2        ; 17           ; 14           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[6]  ; L9    ; 4        ; 17           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[7]  ; T10   ; 4        ; 19           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[8]  ; K11   ; 4        ; 19           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; OUTPUT[9]  ; P16   ; 3        ; 28           ; 3            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[5]  ; R10   ; 4        ; 17           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[6]  ; B14   ; 2        ; 26           ; 14           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[7]  ; J11   ; 3        ; 28           ; 10           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[8]  ; M16   ; 3        ; 28           ; 4            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; OUTPUT[9]  ; J12   ; 3        ; 28           ; 8            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
-+-------------------------------------------------------------+
-; I/O Bank Usage                                              ;
-+----------+-------------------+---------------+--------------+
-; I/O Bank ; Usage             ; VCCIO Voltage ; VREF Voltage ;
-+----------+-------------------+---------------+--------------+
-; 1        ; 4 / 35 ( 11 % )   ; 3.3V          ; --           ;
-; 2        ; 2 / 43 ( 5 % )    ; 3.3V          ; --           ;
-; 3        ; 22 / 39 ( 56 % )  ; 3.3V          ; --           ;
-; 4        ; 41 / 41 ( 100 % ) ; 3.3V          ; --           ;
-+----------+-------------------+---------------+--------------+
++------------------------------------------------------------+
+; I/O Bank Usage                                             ;
++----------+------------------+---------------+--------------+
+; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
++----------+------------------+---------------+--------------+
+; 1        ; 2 / 35 ( 6 % )   ; 3.3V          ; --           ;
+; 2        ; 8 / 43 ( 19 % )  ; 3.3V          ; --           ;
+; 3        ; 35 / 39 ( 90 % ) ; 3.3V          ; --           ;
+; 4        ; 24 / 41 ( 59 % ) ; 3.3V          ; --           ;
++----------+------------------+---------------+--------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -404,11 +404,11 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; A7       ; 149        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A8       ; 148        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A9       ; 146        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; A10      ; 141        ; 2        ; OUTPUT[5]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; A10      ; 141        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A11      ; 136        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A12      ; 135        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A13      ; 132        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; A14      ; 128        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; A14      ; 128        ; 2        ; OUTPUT[23]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A15      ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A16      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; B1       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -420,11 +420,11 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; B7       ; 150        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B8       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; B9       ; 147        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B10      ; 140        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; B10      ; 140        ; 2        ; OUTPUT[28]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B11      ; 133        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B12      ; 134        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B13      ; 131        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B14      ; 127        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; B13      ; 131        ; 2        ; OUTPUT[24]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; B14      ; 127        ; 2        ; OUTPUT[6]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; B16      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; C1       ; 2          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -437,10 +437,10 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; C8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C10      ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; C11      ; 137        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
-; C12      ; 130        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; C13      ; 129        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; C14      ; 123        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; C11      ; 137        ; 2        ; INPUT[14]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C12      ; 130        ; 2        ; INPUT[15]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C13      ; 129        ; 2        ; INPUT[7]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; C14      ; 123        ; 3        ; OUTPUT[14]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; C15      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; C16      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; D1       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
@@ -455,10 +455,10 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; D10      ; 145        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D11      ; 144        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D12      ;            ;          ; GND_PLL2                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; D13      ; 124        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; D14      ; 126        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; D15      ; 120        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; D16      ; 121        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; D13      ; 124        ; 3        ; INPUT[17]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D14      ; 126        ; 3        ; OUTPUT[15]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D15      ; 120        ; 3        ; INPUT[16]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; D16      ; 121        ; 3        ; OUTPUT[16]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; E1       ; 11         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; E2       ; 12         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; E3       ; 6          ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -472,9 +472,9 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; E11      ;            ;          ; GNDA_PLL2                                ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; E12      ;            ;          ; VCCA_PLL2                                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; E13      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; E14      ; 125        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; E14      ; 125        ; 3        ; INPUT[25]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; E15      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; E16      ; 122        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; E16      ; 122        ; 3        ; OUTPUT[17]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; F1       ; 17         ; 1        ; ^DATA0                                   ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; F2       ; 15         ; 1        ; #TCK                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; F3       ; 10         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -489,8 +489,8 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; F12      ;            ;          ; GND_PLL2                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; F13      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; F14      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; F15      ; 113        ; 3        ; INPUT[2]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; F16      ; 114        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; F15      ; 113        ; 3        ; OUTPUT[0]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; F16      ; 114        ; 3        ; INPUT[26]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; G1       ; 14         ; 1        ; #TMS                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; G2       ; 13         ; 1        ; #TDO                                     ; output ;              ;         ; --         ;                 ; --       ; --           ;
 ; G3       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -501,12 +501,12 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; G8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; G9       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; G10      ; 138        ; 2        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; G11      ; 139        ; 2        ; INPUT[8]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; G12      ; 117        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; G13      ; 118        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; G11      ; 139        ; 2        ; SRA1                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; G12      ; 117        ; 3        ; SLL8                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; G13      ; 118        ; 3        ; INPUT[24]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; G14      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; G15      ; 112        ; 3        ; INPUT[9]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; G16      ; 111        ; 3        ; INPUT[27]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; G15      ; 112        ; 3        ; OUTPUT[26]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; G16      ; 111        ; 3        ; INPUT[23]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; H1       ; 21         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; H2       ; 20         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; H3       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -517,9 +517,9 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; H8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; H9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; H10      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; H11      ; 116        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; H12      ; 109        ; 3        ; OUTPUT[1]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; H13      ; 119        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; H11      ; 116        ; 3        ; INPUT[8]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; H12      ; 109        ; 3        ; INPUT[0]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; H13      ; 119        ; 3        ; OUTPUT[25]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; H14      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; H15      ; 107        ; 3        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; H16      ; 108        ; 3        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -533,8 +533,8 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; J8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J10      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; J11      ; 115        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; J12      ; 110        ; 3        ; OUTPUT[0]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J11      ; 115        ; 3        ; OUTPUT[7]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J12      ; 110        ; 3        ; OUTPUT[9]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J13      ; 102        ; 3        ; ^MSEL0                                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; J14      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; J15      ; 106        ; 3        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -548,29 +548,29 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; K7       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; K8       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; K9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; K10      ; 71         ; 4        ; INPUT[25]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; K11      ; 70         ; 4        ; OUTPUT[8]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; K10      ; 71         ; 4        ; INPUT[30]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; K11      ; 70         ; 4        ; OUTPUT[21]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; K12      ; 101        ; 3        ; ^MSEL1                                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; K13      ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; K14      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; K15      ; 104        ; 3        ; INPUT[19]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; K16      ; 103        ; 3        ; INPUT[0]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K15      ; 104        ; 3        ; OUTPUT[19]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K16      ; 103        ; 3        ; INPUT[18]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L1       ; 30         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; L2       ; 31         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; L3       ; 37         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; L4       ; 41         ; 1        ; INPUT[22]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L4       ; 41         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; L5       ;            ;          ; GND_PLL1                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L6       ;            ;          ; VCCD_PLL1                                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; L7       ; 55         ; 4        ; INPUT[31]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; L8       ; 56         ; 4        ; INPUT[20]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; L9       ; 66         ; 4        ; OUTPUT[6]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; L10      ; 67         ; 4        ; OUTPUT[26]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; L11      ; 83         ; 4        ; OUTPUT[12]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; L7       ; 55         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; L8       ; 56         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; L9       ; 66         ; 4        ; INPUT[22]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; L10      ; 67         ; 4        ; OUTPUT[13]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; L11      ; 83         ; 4        ; OUTPUT[11]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; L12      ; 77         ; 4        ; INPUT[5]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; L13      ; 100        ; 3        ; ^CONF_DONE                               ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; L14      ; 96         ; 3        ; INPUT[1]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; L15      ; 97         ; 3        ; OUTPUT[18]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; L16      ; 98         ; 3        ; OUTPUT[27]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L14      ; 96         ; 3        ; INPUT[27]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L15      ; 97         ; 3        ; INPUT[9]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; L16      ; 98         ; 3        ; OUTPUT[18]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M1       ; 29         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M2       ; 33         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M3       ; 34         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -581,12 +581,12 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; M8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; M9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; M10      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; M11      ; 82         ; 4        ; OUTPUT[11]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; M12      ; 85         ; 3        ; INPUT[4]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; M11      ; 82         ; 4        ; OUTPUT[1]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; M12      ; 85         ; 3        ; INPUT[10]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M13      ; 99         ; 3        ; ^nSTATUS                                 ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; M14      ; 95         ; 3        ; INPUT[18]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; M15      ; 93         ; 3        ; OUTPUT[2]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; M16      ; 94         ; 3        ; OUTPUT[17]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; M14      ; 95         ; 3        ; OUTPUT[27]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; M15      ; 93         ; 3        ; INPUT[19]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; M16      ; 94         ; 3        ; OUTPUT[8]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N1       ; 35         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; N2       ; 36         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; N3       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
@@ -594,61 +594,61 @@ The pin-out file can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC
 ; N5       ;            ;          ; GND_PLL1                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; N6       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; N7       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; N8       ; 52         ; 4        ; OUTPUT[22]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; N9       ; 61         ; 4        ; OUTPUT[15]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; N10      ; 62         ; 4        ; INPUT[7]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; N11      ; 72         ; 4        ; INPUT[6]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; N12      ; 84         ; 3        ; INPUT[12]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; N8       ; 52         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; N9       ; 61         ; 4        ; OUTPUT[29]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; N10      ; 62         ; 4        ; OUTPUT[22]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; N11      ; 72         ; 4        ; INPUT[31]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; N12      ; 84         ; 3        ; INPUT[1]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N13      ; 86         ; 3        ; OUTPUT[4]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N14      ; 87         ; 3        ; ~LVDS41p/nCEO~                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; N15      ; 91         ; 3        ; INPUT[10]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; N16      ; 92         ; 3        ; OUTPUT[10]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; N15      ; 91         ; 3        ; INPUT[2]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; N16      ; 92         ; 3        ; INPUT[11]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; P1       ; 38         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; P2       ; 39         ; 1        ; INPUT[21]                                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; P2       ; 39         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P3       ; 40         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; P4       ; 46         ; 4        ; INPUT[23]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; P5       ; 45         ; 4        ; INPUT[13]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; P4       ; 46         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; P5       ; 45         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; P6       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
 ; P7       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; P8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; P9       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; P10      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; P11      ; 65         ; 4        ; OUTPUT[14]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; P12      ; 73         ; 4        ; INPUT[16]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; P13      ; 74         ; 4        ; OUTPUT[24]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; P11      ; 65         ; 4        ; OUTPUT[31]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; P12      ; 73         ; 4        ; INPUT[13]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; P13      ; 74         ; 4        ; INPUT[28]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; P14      ; 88         ; 3        ; INPUT[3]                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; P15      ; 89         ; 3        ; OUTPUT[19]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; P16      ; 90         ; 3        ; OUTPUT[9]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; P15      ; 89         ; 3        ; OUTPUT[3]                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; P16      ; 90         ; 3        ; OUTPUT[10]                               ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; R1       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; R2       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; R3       ; 43         ; 4        ; OUTPUT[28]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R4       ; 48         ; 4        ; OUTPUT[30]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R5       ; 50         ; 4        ; OUTPUT[20]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; R3       ; 43         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; R4       ; 48         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; R5       ; 50         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; R6       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; R7       ; 54         ; 4        ; OUTPUT[23]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R8       ; 58         ; 4        ; INPUT[15]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R9       ; 60         ; 4        ; INPUT[24]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R10      ; 68         ; 4        ; OUTPUT[25]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R11      ; 64         ; 4        ; OUTPUT[16]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R12      ; 76         ; 4        ; SRA1                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R13      ; 79         ; 4        ; INPUT[11]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; R14      ; 81         ; 4        ; OUTPUT[13]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; R7       ; 54         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; R8       ; 58         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; R9       ; 60         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; R10      ; 68         ; 4        ; OUTPUT[5]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; R11      ; 64         ; 4        ; OUTPUT[20]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; R12      ; 76         ; 4        ; INPUT[20]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; R13      ; 79         ; 4        ; OUTPUT[12]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; R14      ; 81         ; 4        ; INPUT[4]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; R15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; R16      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; T1       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; T2       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; T3       ; 44         ; 4        ; INPUT[30]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T4       ; 47         ; 4        ; OUTPUT[21]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T5       ; 49         ; 4        ; INPUT[29]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T6       ; 51         ; 4        ; OUTPUT[31]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T7       ; 53         ; 4        ; OUTPUT[29]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T8       ; 57         ; 4        ; SLL8                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T9       ; 59         ; 4        ; INPUT[28]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T10      ; 69         ; 4        ; OUTPUT[7]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T11      ; 63         ; 4        ; INPUT[14]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T12      ; 75         ; 4        ; INPUT[26]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T13      ; 78         ; 4        ; INPUT[17]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T14      ; 80         ; 4        ; OUTPUT[3]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; T3       ; 44         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; T4       ; 47         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; T5       ; 49         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; T6       ; 51         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; T7       ; 53         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; T8       ; 57         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; T9       ; 59         ; 4        ; INPUT[29]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; T10      ; 69         ; 4        ; INPUT[21]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; T11      ; 63         ; 4        ; OUTPUT[30]                               ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; T12      ; 75         ; 4        ; INPUT[12]                                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; T13      ; 78         ; 4        ; INPUT[6]                                 ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; T14      ; 80         ; 4        ; OUTPUT[2]                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; T15      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; T16      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 +----------+------------+----------+------------------------------------------+--------+--------------+---------+------------+-----------------+----------+--------------+
@@ -740,35 +740,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; OUTPUT[1]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; OUTPUT[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; INPUT[31]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; SLL8       ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[23]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
+; INPUT[23]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SLL8       ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; SRA1       ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[22]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[30]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[21]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; INPUT[22]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
+; INPUT[21]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[29]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[20]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[28]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[19]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[27]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[18]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; INPUT[26]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[17]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[25]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[16]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[24]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
+; INPUT[26]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; INPUT[17]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; INPUT[25]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; INPUT[16]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; INPUT[24]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[15]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[14]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[13]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[12]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; INPUT[11]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
+; INPUT[12]  ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
+; INPUT[11]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[10]  ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[9]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; INPUT[8]   ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
+; INPUT[8]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[7]   ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[6]   ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[5]   ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; INPUT[4]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; INPUT[4]   ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
 ; INPUT[3]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[2]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
 ; INPUT[1]   ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
@@ -782,72 +782,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
 ; INPUT[31]           ;                   ;         ;
-;      - inst6[31]    ; 0                 ; 6       ;
-;      - inst6[30]~0  ; 0                 ; 6       ;
-; SLL8                ;                   ;         ;
-;      - inst6[31]    ; 1                 ; 6       ;
-;      - inst6[30]~0  ; 1                 ; 6       ;
-;      - inst6[30]~1  ; 1                 ; 6       ;
-;      - inst6[29]~2  ; 1                 ; 6       ;
-;      - inst6[29]~3  ; 1                 ; 6       ;
-;      - inst6[28]~4  ; 1                 ; 6       ;
-;      - inst6[28]~5  ; 1                 ; 6       ;
-;      - inst6[27]~6  ; 1                 ; 6       ;
-;      - inst6[27]~7  ; 1                 ; 6       ;
-;      - inst6[26]~8  ; 1                 ; 6       ;
-;      - inst6[26]~9  ; 1                 ; 6       ;
-;      - inst6[25]~10 ; 1                 ; 6       ;
-;      - inst6[25]~11 ; 1                 ; 6       ;
-;      - inst6[24]~12 ; 1                 ; 6       ;
-;      - inst6[24]~13 ; 1                 ; 6       ;
-;      - inst6[23]~14 ; 1                 ; 6       ;
-;      - inst6[23]~15 ; 1                 ; 6       ;
-;      - inst6[22]~16 ; 1                 ; 6       ;
-;      - inst6[22]~17 ; 1                 ; 6       ;
-;      - inst6[21]~18 ; 1                 ; 6       ;
-;      - inst6[21]~19 ; 1                 ; 6       ;
-;      - inst6[20]~20 ; 1                 ; 6       ;
-;      - inst6[20]~21 ; 1                 ; 6       ;
-;      - inst6[19]~22 ; 1                 ; 6       ;
-;      - inst6[19]~23 ; 1                 ; 6       ;
-;      - inst6[18]~24 ; 1                 ; 6       ;
-;      - inst6[18]~25 ; 1                 ; 6       ;
-;      - inst6[17]~26 ; 1                 ; 6       ;
-;      - inst6[17]~27 ; 1                 ; 6       ;
-;      - inst6[16]~28 ; 1                 ; 6       ;
-;      - inst6[16]~29 ; 1                 ; 6       ;
-;      - inst6[15]~30 ; 1                 ; 6       ;
-;      - inst6[15]~31 ; 1                 ; 6       ;
-;      - inst6[14]~32 ; 1                 ; 6       ;
-;      - inst6[14]~33 ; 1                 ; 6       ;
-;      - inst6[13]~34 ; 1                 ; 6       ;
-;      - inst6[13]~35 ; 1                 ; 6       ;
-;      - inst6[12]~36 ; 1                 ; 6       ;
-;      - inst6[12]~37 ; 1                 ; 6       ;
-;      - inst6[11]~38 ; 1                 ; 6       ;
-;      - inst6[11]~39 ; 1                 ; 6       ;
-;      - inst6[10]~40 ; 1                 ; 6       ;
-;      - inst6[10]~41 ; 1                 ; 6       ;
-;      - inst6[9]~42  ; 1                 ; 6       ;
-;      - inst6[9]~43  ; 1                 ; 6       ;
-;      - inst6[8]~44  ; 1                 ; 6       ;
-;      - inst6[8]~45  ; 1                 ; 6       ;
-;      - inst6[7]     ; 1                 ; 6       ;
-;      - inst6[6]     ; 1                 ; 6       ;
-;      - inst6[5]     ; 1                 ; 6       ;
-;      - inst6[4]     ; 1                 ; 6       ;
-;      - inst6[3]     ; 1                 ; 6       ;
-;      - inst6[2]     ; 1                 ; 6       ;
-;      - inst6[1]     ; 1                 ; 6       ;
-;      - inst6[0]     ; 1                 ; 6       ;
+;      - inst6[31]~0  ; 0                 ; 6       ;
+;      - inst6[30]~1  ; 0                 ; 6       ;
 ; INPUT[23]           ;                   ;         ;
-;      - inst6[31]    ; 0                 ; 6       ;
+;      - inst6[31]~0  ; 0                 ; 6       ;
 ;      - inst6[23]~15 ; 0                 ; 6       ;
 ;      - inst6[22]~16 ; 0                 ; 6       ;
-; SRA1                ;                   ;         ;
-;      - inst6[31]    ; 0                 ; 6       ;
-;      - inst6[30]~0  ; 0                 ; 6       ;
+; SLL8                ;                   ;         ;
+;      - inst6[31]~0  ; 0                 ; 6       ;
 ;      - inst6[30]~1  ; 0                 ; 6       ;
+;      - inst6[30]    ; 0                 ; 6       ;
 ;      - inst6[29]~2  ; 0                 ; 6       ;
 ;      - inst6[29]~3  ; 0                 ; 6       ;
 ;      - inst6[28]~4  ; 0                 ; 6       ;
@@ -900,31 +844,87 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - inst6[2]     ; 0                 ; 6       ;
 ;      - inst6[1]     ; 0                 ; 6       ;
 ;      - inst6[0]     ; 0                 ; 6       ;
-; INPUT[22]           ;                   ;         ;
-;      - inst6[30]~0  ; 0                 ; 6       ;
-;      - inst6[22]~17 ; 0                 ; 6       ;
-;      - inst6[21]~18 ; 0                 ; 6       ;
-; INPUT[30]           ;                   ;         ;
-;      - inst6[30]~1  ; 0                 ; 6       ;
-;      - inst6[29]~2  ; 0                 ; 6       ;
-; INPUT[21]           ;                   ;         ;
+; SRA1                ;                   ;         ;
+;      - inst6[31]~0  ; 1                 ; 6       ;
+;      - inst6[30]~1  ; 1                 ; 6       ;
+;      - inst6[30]    ; 1                 ; 6       ;
 ;      - inst6[29]~2  ; 1                 ; 6       ;
+;      - inst6[29]~3  ; 1                 ; 6       ;
+;      - inst6[28]~4  ; 1                 ; 6       ;
+;      - inst6[28]~5  ; 1                 ; 6       ;
+;      - inst6[27]~6  ; 1                 ; 6       ;
+;      - inst6[27]~7  ; 1                 ; 6       ;
+;      - inst6[26]~8  ; 1                 ; 6       ;
+;      - inst6[26]~9  ; 1                 ; 6       ;
+;      - inst6[25]~10 ; 1                 ; 6       ;
+;      - inst6[25]~11 ; 1                 ; 6       ;
+;      - inst6[24]~12 ; 1                 ; 6       ;
+;      - inst6[24]~13 ; 1                 ; 6       ;
+;      - inst6[23]~14 ; 1                 ; 6       ;
+;      - inst6[23]~15 ; 1                 ; 6       ;
+;      - inst6[22]~16 ; 1                 ; 6       ;
+;      - inst6[22]~17 ; 1                 ; 6       ;
+;      - inst6[21]~18 ; 1                 ; 6       ;
 ;      - inst6[21]~19 ; 1                 ; 6       ;
 ;      - inst6[20]~20 ; 1                 ; 6       ;
+;      - inst6[20]~21 ; 1                 ; 6       ;
+;      - inst6[19]~22 ; 1                 ; 6       ;
+;      - inst6[19]~23 ; 1                 ; 6       ;
+;      - inst6[18]~24 ; 1                 ; 6       ;
+;      - inst6[18]~25 ; 1                 ; 6       ;
+;      - inst6[17]~26 ; 1                 ; 6       ;
+;      - inst6[17]~27 ; 1                 ; 6       ;
+;      - inst6[16]~28 ; 1                 ; 6       ;
+;      - inst6[16]~29 ; 1                 ; 6       ;
+;      - inst6[15]~30 ; 1                 ; 6       ;
+;      - inst6[15]~31 ; 1                 ; 6       ;
+;      - inst6[14]~32 ; 1                 ; 6       ;
+;      - inst6[14]~33 ; 1                 ; 6       ;
+;      - inst6[13]~34 ; 1                 ; 6       ;
+;      - inst6[13]~35 ; 1                 ; 6       ;
+;      - inst6[12]~36 ; 1                 ; 6       ;
+;      - inst6[12]~37 ; 1                 ; 6       ;
+;      - inst6[11]~38 ; 1                 ; 6       ;
+;      - inst6[11]~39 ; 1                 ; 6       ;
+;      - inst6[10]~40 ; 1                 ; 6       ;
+;      - inst6[10]~41 ; 1                 ; 6       ;
+;      - inst6[9]~42  ; 1                 ; 6       ;
+;      - inst6[9]~43  ; 1                 ; 6       ;
+;      - inst6[8]~44  ; 1                 ; 6       ;
+;      - inst6[8]~45  ; 1                 ; 6       ;
+;      - inst6[7]     ; 1                 ; 6       ;
+;      - inst6[6]     ; 1                 ; 6       ;
+;      - inst6[5]     ; 1                 ; 6       ;
+;      - inst6[4]     ; 1                 ; 6       ;
+;      - inst6[3]     ; 1                 ; 6       ;
+;      - inst6[2]     ; 1                 ; 6       ;
+;      - inst6[1]     ; 1                 ; 6       ;
+;      - inst6[0]     ; 1                 ; 6       ;
+; INPUT[30]           ;                   ;         ;
+;      - inst6[30]~1  ; 1                 ; 6       ;
+;      - inst6[29]~2  ; 1                 ; 6       ;
+; INPUT[22]           ;                   ;         ;
+;      - inst6[30]    ; 0                 ; 6       ;
+;      - inst6[22]~17 ; 0                 ; 6       ;
+;      - inst6[21]~18 ; 0                 ; 6       ;
+; INPUT[21]           ;                   ;         ;
+;      - inst6[29]~2  ; 0                 ; 6       ;
+;      - inst6[21]~19 ; 0                 ; 6       ;
+;      - inst6[20]~20 ; 0                 ; 6       ;
 ; INPUT[29]           ;                   ;         ;
 ;      - inst6[29]~3  ; 0                 ; 6       ;
 ;      - inst6[28]~4  ; 0                 ; 6       ;
 ; INPUT[20]           ;                   ;         ;
-;      - inst6[28]~4  ; 0                 ; 6       ;
-;      - inst6[20]~21 ; 0                 ; 6       ;
-;      - inst6[19]~22 ; 0                 ; 6       ;
+;      - inst6[28]~4  ; 1                 ; 6       ;
+;      - inst6[20]~21 ; 1                 ; 6       ;
+;      - inst6[19]~22 ; 1                 ; 6       ;
 ; INPUT[28]           ;                   ;         ;
 ;      - inst6[28]~5  ; 1                 ; 6       ;
 ;      - inst6[27]~6  ; 1                 ; 6       ;
 ; INPUT[19]           ;                   ;         ;
-;      - inst6[27]~6  ; 0                 ; 6       ;
-;      - inst6[19]~23 ; 0                 ; 6       ;
-;      - inst6[18]~24 ; 0                 ; 6       ;
+;      - inst6[27]~6  ; 1                 ; 6       ;
+;      - inst6[19]~23 ; 1                 ; 6       ;
+;      - inst6[18]~24 ; 1                 ; 6       ;
 ; INPUT[27]           ;                   ;         ;
 ;      - inst6[27]~7  ; 1                 ; 6       ;
 ;      - inst6[26]~8  ; 1                 ; 6       ;
@@ -933,54 +933,54 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - inst6[18]~25 ; 0                 ; 6       ;
 ;      - inst6[17]~26 ; 0                 ; 6       ;
 ; INPUT[26]           ;                   ;         ;
-;      - inst6[26]~9  ; 0                 ; 6       ;
-;      - inst6[25]~10 ; 0                 ; 6       ;
+;      - inst6[26]~9  ; 1                 ; 6       ;
+;      - inst6[25]~10 ; 1                 ; 6       ;
 ; INPUT[17]           ;                   ;         ;
 ;      - inst6[25]~10 ; 0                 ; 6       ;
 ;      - inst6[17]~27 ; 0                 ; 6       ;
 ;      - inst6[16]~28 ; 0                 ; 6       ;
 ; INPUT[25]           ;                   ;         ;
-;      - inst6[25]~11 ; 0                 ; 6       ;
-;      - inst6[24]~12 ; 0                 ; 6       ;
+;      - inst6[25]~11 ; 1                 ; 6       ;
+;      - inst6[24]~12 ; 1                 ; 6       ;
 ; INPUT[16]           ;                   ;         ;
 ;      - inst6[24]~12 ; 0                 ; 6       ;
 ;      - inst6[16]~29 ; 0                 ; 6       ;
 ;      - inst6[15]~30 ; 0                 ; 6       ;
 ; INPUT[24]           ;                   ;         ;
-;      - inst6[24]~13 ; 0                 ; 6       ;
-;      - inst6[23]~14 ; 0                 ; 6       ;
-; INPUT[15]           ;                   ;         ;
+;      - inst6[24]~13 ; 1                 ; 6       ;
 ;      - inst6[23]~14 ; 1                 ; 6       ;
-;      - inst6[15]~31 ; 1                 ; 6       ;
-;      - inst6[14]~32 ; 1                 ; 6       ;
+; INPUT[15]           ;                   ;         ;
+;      - inst6[23]~14 ; 0                 ; 6       ;
+;      - inst6[15]~31 ; 0                 ; 6       ;
+;      - inst6[14]~32 ; 0                 ; 6       ;
 ; INPUT[14]           ;                   ;         ;
 ;      - inst6[22]~16 ; 0                 ; 6       ;
 ;      - inst6[14]~33 ; 0                 ; 6       ;
 ;      - inst6[13]~34 ; 0                 ; 6       ;
 ; INPUT[13]           ;                   ;         ;
-;      - inst6[21]~18 ; 1                 ; 6       ;
-;      - inst6[13]~35 ; 1                 ; 6       ;
-;      - inst6[12]~36 ; 1                 ; 6       ;
+;      - inst6[21]~18 ; 0                 ; 6       ;
+;      - inst6[13]~35 ; 0                 ; 6       ;
+;      - inst6[12]~36 ; 0                 ; 6       ;
 ; INPUT[12]           ;                   ;         ;
-;      - inst6[20]~20 ; 0                 ; 6       ;
-;      - inst6[12]~37 ; 0                 ; 6       ;
-;      - inst6[11]~38 ; 0                 ; 6       ;
+;      - inst6[20]~20 ; 1                 ; 6       ;
+;      - inst6[12]~37 ; 1                 ; 6       ;
+;      - inst6[11]~38 ; 1                 ; 6       ;
 ; INPUT[11]           ;                   ;         ;
-;      - inst6[19]~22 ; 1                 ; 6       ;
-;      - inst6[11]~39 ; 1                 ; 6       ;
-;      - inst6[10]~40 ; 1                 ; 6       ;
+;      - inst6[19]~22 ; 0                 ; 6       ;
+;      - inst6[11]~39 ; 0                 ; 6       ;
+;      - inst6[10]~40 ; 0                 ; 6       ;
 ; INPUT[10]           ;                   ;         ;
 ;      - inst6[18]~24 ; 0                 ; 6       ;
 ;      - inst6[10]~41 ; 0                 ; 6       ;
 ;      - inst6[9]~42  ; 0                 ; 6       ;
 ; INPUT[9]            ;                   ;         ;
-;      - inst6[17]~26 ; 1                 ; 6       ;
-;      - inst6[9]~43  ; 1                 ; 6       ;
-;      - inst6[8]~44  ; 1                 ; 6       ;
+;      - inst6[17]~26 ; 0                 ; 6       ;
+;      - inst6[9]~43  ; 0                 ; 6       ;
+;      - inst6[8]~44  ; 0                 ; 6       ;
 ; INPUT[8]            ;                   ;         ;
-;      - inst6[16]~28 ; 0                 ; 6       ;
-;      - inst6[8]~45  ; 0                 ; 6       ;
-;      - inst6[7]     ; 0                 ; 6       ;
+;      - inst6[16]~28 ; 1                 ; 6       ;
+;      - inst6[8]~45  ; 1                 ; 6       ;
+;      - inst6[7]     ; 1                 ; 6       ;
 ; INPUT[7]            ;                   ;         ;
 ;      - inst6[15]~30 ; 0                 ; 6       ;
 ;      - inst6[7]     ; 0                 ; 6       ;
@@ -990,28 +990,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - inst6[6]     ; 0                 ; 6       ;
 ;      - inst6[5]     ; 0                 ; 6       ;
 ; INPUT[5]            ;                   ;         ;
-;      - inst6[13]~34 ; 0                 ; 6       ;
-;      - inst6[5]     ; 0                 ; 6       ;
-;      - inst6[4]     ; 0                 ; 6       ;
-; INPUT[4]            ;                   ;         ;
-;      - inst6[12]~36 ; 1                 ; 6       ;
+;      - inst6[13]~34 ; 1                 ; 6       ;
+;      - inst6[5]     ; 1                 ; 6       ;
 ;      - inst6[4]     ; 1                 ; 6       ;
-;      - inst6[3]     ; 1                 ; 6       ;
+; INPUT[4]            ;                   ;         ;
+;      - inst6[12]~36 ; 0                 ; 6       ;
+;      - inst6[4]     ; 0                 ; 6       ;
+;      - inst6[3]     ; 0                 ; 6       ;
 ; INPUT[3]            ;                   ;         ;
 ;      - inst6[11]~38 ; 0                 ; 6       ;
 ;      - inst6[3]     ; 0                 ; 6       ;
 ;      - inst6[2]     ; 0                 ; 6       ;
 ; INPUT[2]            ;                   ;         ;
-;      - inst6[10]~40 ; 0                 ; 6       ;
-;      - inst6[2]     ; 0                 ; 6       ;
-;      - inst6[1]     ; 0                 ; 6       ;
+;      - inst6[10]~40 ; 1                 ; 6       ;
+;      - inst6[2]     ; 1                 ; 6       ;
+;      - inst6[1]     ; 1                 ; 6       ;
 ; INPUT[1]            ;                   ;         ;
 ;      - inst6[9]~42  ; 0                 ; 6       ;
 ;      - inst6[1]     ; 0                 ; 6       ;
 ;      - inst6[0]     ; 0                 ; 6       ;
 ; INPUT[0]            ;                   ;         ;
-;      - inst6[8]~44  ; 0                 ; 6       ;
-;      - inst6[0]     ; 0                 ; 6       ;
+;      - inst6[8]~44  ; 1                 ; 6       ;
+;      - inst6[0]     ; 1                 ; 6       ;
 +---------------------+-------------------+---------+
 
 
@@ -1106,9 +1106,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; inst6[28]~4  ; 1                ;
 ; inst6[29]~3  ; 1                ;
 ; inst6[29]~2  ; 1                ;
+; inst6[30]    ; 1                ;
 ; inst6[30]~1  ; 1                ;
-; inst6[30]~0  ; 1                ;
-; inst6[31]    ; 1                ;
+; inst6[31]~0  ; 1                ;
 +--------------+------------------+
 
 
@@ -1117,14 +1117,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+-----------------------+
 ; Other Routing Resource Type ; Usage                 ;
 +-----------------------------+-----------------------+
-; Block interconnects         ; 93 / 15,666 ( < 1 % ) ;
-; C16 interconnects           ; 7 / 812 ( < 1 % )     ;
-; C4 interconnects            ; 76 / 11,424 ( < 1 % ) ;
-; Direct links                ; 4 / 15,666 ( < 1 % )  ;
+; Block interconnects         ; 89 / 15,666 ( < 1 % ) ;
+; C16 interconnects           ; 5 / 812 ( < 1 % )     ;
+; C4 interconnects            ; 74 / 11,424 ( < 1 % ) ;
+; Direct links                ; 7 / 15,666 ( < 1 % )  ;
 ; Global clocks               ; 0 / 8 ( 0 % )         ;
-; Local interconnects         ; 17 / 4,608 ( < 1 % )  ;
-; R24 interconnects           ; 9 / 652 ( 1 % )       ;
-; R4 interconnects            ; 57 / 13,328 ( < 1 % ) ;
+; Local interconnects         ; 21 / 4,608 ( < 1 % )  ;
+; R24 interconnects           ; 4 / 652 ( < 1 % )     ;
+; R4 interconnects            ; 32 / 13,328 ( < 1 % ) ;
 +-----------------------------+-----------------------+
 
 
@@ -1139,16 +1139,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 4                                           ; 0                           ;
 ; 5                                           ; 0                           ;
 ; 6                                           ; 0                           ;
-; 7                                           ; 1                           ;
+; 7                                           ; 0                           ;
 ; 8                                           ; 0                           ;
 ; 9                                           ; 0                           ;
-; 10                                          ; 0                           ;
+; 10                                          ; 1                           ;
 ; 11                                          ; 0                           ;
 ; 12                                          ; 0                           ;
 ; 13                                          ; 0                           ;
-; 14                                          ; 0                           ;
-; 15                                          ; 0                           ;
-; 16                                          ; 3                           ;
+; 14                                          ; 1                           ;
+; 15                                          ; 1                           ;
+; 16                                          ; 1                           ;
 +---------------------------------------------+-----------------------------+
 
 
@@ -1164,43 +1164,41 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 4                                            ; 0                           ;
 ; 5                                            ; 0                           ;
 ; 6                                            ; 0                           ;
-; 7                                            ; 1                           ;
+; 7                                            ; 0                           ;
 ; 8                                            ; 0                           ;
 ; 9                                            ; 0                           ;
-; 10                                           ; 0                           ;
+; 10                                           ; 1                           ;
 ; 11                                           ; 0                           ;
 ; 12                                           ; 0                           ;
 ; 13                                           ; 0                           ;
-; 14                                           ; 0                           ;
-; 15                                           ; 0                           ;
-; 16                                           ; 3                           ;
+; 14                                           ; 1                           ;
+; 15                                           ; 1                           ;
+; 16                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
 +-------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                       ;
 +-------------------------------------------------+-----------------------------+
-; Number of Signals Sourced Out  (Average = 9.00) ; Number of LABs  (Total = 4) ;
+; Number of Signals Sourced Out  (Average = 8.25) ; Number of LABs  (Total = 4) ;
 +-------------------------------------------------+-----------------------------+
 ; 0                                               ; 0                           ;
 ; 1                                               ; 0                           ;
 ; 2                                               ; 0                           ;
 ; 3                                               ; 0                           ;
 ; 4                                               ; 0                           ;
-; 5                                               ; 1                           ;
+; 5                                               ; 0                           ;
 ; 6                                               ; 0                           ;
-; 7                                               ; 0                           ;
-; 8                                               ; 0                           ;
-; 9                                               ; 1                           ;
-; 10                                              ; 0                           ;
-; 11                                              ; 2                           ;
+; 7                                               ; 1                           ;
+; 8                                               ; 1                           ;
+; 9                                               ; 2                           ;
 +-------------------------------------------------+-----------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +----------------------------------------------+-----------------------------+
-; Number of Distinct Inputs  (Average = 13.75) ; Number of LABs  (Total = 4) ;
+; Number of Distinct Inputs  (Average = 13.50) ; Number of LABs  (Total = 4) ;
 +----------------------------------------------+-----------------------------+
 ; 0                                            ; 0                           ;
 ; 1                                            ; 0                           ;
@@ -1211,14 +1209,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 6                                            ; 0                           ;
 ; 7                                            ; 0                           ;
 ; 8                                            ; 0                           ;
-; 9                                            ; 1                           ;
+; 9                                            ; 0                           ;
 ; 10                                           ; 0                           ;
-; 11                                           ; 0                           ;
+; 11                                           ; 1                           ;
 ; 12                                           ; 0                           ;
 ; 13                                           ; 0                           ;
-; 14                                           ; 0                           ;
-; 15                                           ; 2                           ;
-; 16                                           ; 1                           ;
+; 14                                           ; 2                           ;
+; 15                                           ; 1                           ;
 +----------------------------------------------+-----------------------------+
 
 
@@ -1299,11 +1296,11 @@ Critical Warning (169085): No exact pin location assignment(s) for 66 pins of 66
     Info (169086): Pin OUTPUT[1] not assigned to an exact location on the device
     Info (169086): Pin OUTPUT[0] not assigned to an exact location on the device
     Info (169086): Pin INPUT[31] not assigned to an exact location on the device
-    Info (169086): Pin SLL8 not assigned to an exact location on the device
     Info (169086): Pin INPUT[23] not assigned to an exact location on the device
+    Info (169086): Pin SLL8 not assigned to an exact location on the device
     Info (169086): Pin SRA1 not assigned to an exact location on the device
-    Info (169086): Pin INPUT[22] not assigned to an exact location on the device
     Info (169086): Pin INPUT[30] not assigned to an exact location on the device
+    Info (169086): Pin INPUT[22] not assigned to an exact location on the device
     Info (169086): Pin INPUT[21] not assigned to an exact location on the device
     Info (169086): Pin INPUT[29] not assigned to an exact location on the device
     Info (169086): Pin INPUT[20] not assigned to an exact location on the device
@@ -1362,7 +1359,7 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.11 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 32 output pins without output pin load capacitance assignment
     Info (306007): Pin "OUTPUT[31]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
@@ -1400,19 +1397,19 @@ Warning (306006): Found 32 output pins without output pin load capacitance assig
 Info (306005): Delay annotation completed successfully
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
-Info (144001): Generated suppressed messages file C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/output_files/MIC1.fit.smsg
-Info: Quartus II 64-Bit Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4803 megabytes
-    Info: Processing ended: Mon Jun 09 17:28:26 2025
-    Info: Elapsed time: 00:00:02
+Info (144001): Generated suppressed messages file D:/aHMED MUITO NOVO/output_files/MIC1.fit.smsg
+Info: Quartus II 32-bit Fitter was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 433 megabytes
+    Info: Processing ended: Thu Jun 12 13:32:31 2025
+    Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:02
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/joaov/OneDrive/Desktop/Programação/MIC1-main/output_files/MIC1.fit.smsg.
+The suppressed messages can be found in D:/aHMED MUITO NOVO/output_files/MIC1.fit.smsg.
 
 

@@ -1,6 +1,6 @@
 Flow report for MIC1
-Mon Jun 09 17:28:29 2025
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Thu Jun 12 13:32:48 2025
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -40,8 +40,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Jun 09 17:28:29 2025           ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Flow Status                        ; Successful - Thu Jun 12 13:32:48 2025           ;
+; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; MIC1                                            ;
 ; Top-level Entity Name              ; Shifter                                         ;
 ; Family                             ; Cyclone II                                      ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/09/2025 17:28:22 ;
+; Start date & time ; 06/12/2025 13:32:10 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; MIC1                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 277836577375014.174950090215504 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 171983378111462.174974593001728 ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
@@ -93,12 +93,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4587 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:01     ; 1.0                     ; 4803 MB             ; 00:00:02                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4548 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:00     ; 1.0                     ; 4542 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4514 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:03     ; --                      ; --                  ; 00:00:05                           ;
+; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 362 MB              ; 00:00:01                           ;
+; Fitter                    ; 00:00:04     ; 1.0                     ; 433 MB              ; 00:00:02                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 353 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 323 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 314 MB              ; 00:00:00                           ;
+; Total                     ; 00:00:19     ; --                      ; --                  ; 00:00:05                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -107,11 +107,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; joãovitor        ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; joãovitor        ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; joãovitor        ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; joãovitor        ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; joãovitor        ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; DECOMDV-321-005  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DECOMDV-321-005  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DECOMDV-321-005  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DECOMDV-321-005  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DECOMDV-321-005  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

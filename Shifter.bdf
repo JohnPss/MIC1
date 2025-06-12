@@ -134,50 +134,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 824 296 984 392)
-	(text "SRA1" (rect 5 0 38 14)(font "Arial" (font_size 8)))
-	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN[31..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
-		(text "IN[31..0]" (rect 21 27 67 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 160 32)
-		(output)
-		(text "OUT[31..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
-		(text "OUT[31..0]" (rect 79 27 139 41)(font "Arial" (font_size 8)))
-		(line (pt 160 32)(pt 144 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 144 80))
-	)
-)
-(symbol
-	(rect 792 392 1000 488)
-	(text "SLL8" (rect 5 0 34 14)(font "Arial" (font_size 8)))
-	(text "inst2" (rect 8 80 31 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "INPUT[31..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
-		(text "INPUT[31..0]" (rect 21 27 89 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 208 32)
-		(output)
-		(text "OUTPUT[31..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
-		(text "OUTPUT[31..0]" (rect 105 27 187 41)(font "Arial" (font_size 8)))
-		(line (pt 208 32)(pt 192 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 192 80))
-	)
-)
-(symbol
 	(rect 1096 256 1160 304)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 37 26 49)(font "Arial" ))
@@ -346,15 +302,49 @@ applicable agreement for further details.
 		(arc (pt 25 35)(pt 49 24)(rect -6 -27 57 36))
 	)
 )
-(connector
-	(pt 776 424)
-	(pt 792 424)
-	(bus)
+(symbol
+	(rect 824 296 984 392)
+	(text "SRA1" (rect 5 0 38 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN[31..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "IN[31..0]" (rect 21 27 67 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "OUT[31..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "OUT[31..0]" (rect 79 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
 )
-(connector
-	(pt 1000 424)
-	(pt 1016 424)
-	(bus)
+(symbol
+	(rect 816 392 976 488)
+	(text "SLL8" (rect 5 0 34 14)(font "Arial" (font_size 8)))
+	(text "inst9" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN[31..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "IN[31..0]" (rect 21 27 67 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "OUT[31..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "OUT[31..0]" (rect 79 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
 )
 (connector
 	(pt 1240 352)
@@ -392,25 +382,12 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 984 328)
-	(pt 1088 328)
-	(bus)
-)
-(connector
-	(pt 624 432)
-	(pt 672 432)
-)
-(connector
 	(pt 672 296)
 	(pt 672 432)
 )
 (connector
 	(pt 672 296)
 	(pt 688 296)
-)
-(connector
-	(pt 624 384)
-	(pt 640 384)
 )
 (connector
 	(pt 640 384)
@@ -445,10 +422,6 @@ applicable agreement for further details.
 	(pt 1088 504)
 )
 (connector
-	(pt 624 416)
-	(pt 720 416)
-)
-(connector
 	(pt 720 416)
 	(pt 720 504)
 )
@@ -477,10 +450,6 @@ applicable agreement for further details.
 	(pt 752 288)
 )
 (connector
-	(pt 624 400)
-	(pt 1072 400)
-)
-(connector
 	(pt 1072 344)
 	(pt 1072 400)
 )
@@ -506,6 +475,41 @@ applicable agreement for further details.
 (connector
 	(pt 776 328)
 	(pt 776 424)
+	(bus)
+)
+(connector
+	(pt 984 328)
+	(pt 1088 328)
+	(bus)
+)
+(connector
+	(text "00" (rect 634 368 645 380)(font "Arial" ))
+	(pt 624 384)
+	(pt 640 384)
+)
+(connector
+	(text "01" (rect 634 384 645 396)(font "Arial" ))
+	(pt 624 400)
+	(pt 1072 400)
+)
+(connector
+	(text "10" (rect 634 400 645 412)(font "Arial" ))
+	(pt 624 416)
+	(pt 720 416)
+)
+(connector
+	(text "11" (rect 634 416 645 428)(font "Arial" ))
+	(pt 624 432)
+	(pt 672 432)
+)
+(connector
+	(pt 816 424)
+	(pt 776 424)
+	(bus)
+)
+(connector
+	(pt 976 424)
+	(pt 1016 424)
 	(bus)
 )
 (junction (pt 776 328))
