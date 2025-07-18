@@ -1,6 +1,6 @@
 Simulator report for MIC1
-Thu Jun 12 14:15:02 2025
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Thu Jul 17 16:44:37 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -45,9 +45,9 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 121 nodes    ;
-; Simulation Coverage         ;      85.95 % ;
-; Total Number of Transitions ; 334          ;
+; Simulation Netlist Size     ; 134 nodes    ;
+; Simulation Coverage         ;      80.60 % ;
+; Total Number of Transitions ; 363          ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Cyclone II   ;
 ; Device                      ; EP2C5F256C6  ;
@@ -87,7 +87,7 @@ applicable agreement for further details.
 ; Simulation Waveforms ;
 +----------------------+
 Waveform report data cannot be output to ASCII.
-Please use Quartus II 32-bit to view the waveform report data.
+Please use Quartus II 64-Bit to view the waveform report data.
 
 
 +--------------------------------------------------------------------+
@@ -95,13 +95,13 @@ Please use Quartus II 32-bit to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      85.95 % ;
-; Total nodes checked                                 ; 121          ;
-; Total output ports checked                          ; 121          ;
-; Total output ports with complete 1/0-value coverage ; 104          ;
-; Total output ports with no 1/0-value coverage       ; 4            ;
-; Total output ports with no 1-value coverage         ; 16           ;
-; Total output ports with no 0-value coverage         ; 5            ;
+; Total coverage as a percentage                      ;      80.60 % ;
+; Total nodes checked                                 ; 134          ;
+; Total output ports checked                          ; 134          ;
+; Total output ports with complete 1/0-value coverage ; 108          ;
+; Total output ports with no 1/0-value coverage       ; 8            ;
+; Total output ports with no 1-value coverage         ; 22           ;
+; Total output ports with no 0-value coverage         ; 12           ;
 +-----------------------------------------------------+--------------+
 
 
@@ -111,6 +111,7 @@ The following table displays output ports that toggle between 1 and 0 during sim
 +-----------------------+---------------------------+------------------+
 ; Node Name             ; Output Port Name          ; Output Port Type ;
 +-----------------------+---------------------------+------------------+
+; |Shifter|inst6[31]~0  ; |Shifter|inst6[31]~0      ; combout          ;
 ; |Shifter|inst6[30]~1  ; |Shifter|inst6[30]~1      ; combout          ;
 ; |Shifter|inst6[30]    ; |Shifter|inst6[30]        ; combout          ;
 ; |Shifter|inst6[29]~2  ; |Shifter|inst6[29]~2      ; combout          ;
@@ -153,15 +154,22 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |Shifter|inst6[11]~39 ; |Shifter|inst6[11]~39     ; combout          ;
 ; |Shifter|inst6[10]~40 ; |Shifter|inst6[10]~40     ; combout          ;
 ; |Shifter|inst6[10]~41 ; |Shifter|inst6[10]~41     ; combout          ;
-; |Shifter|inst6[9]~43  ; |Shifter|inst6[9]~43      ; combout          ;
 ; |Shifter|inst6[8]~44  ; |Shifter|inst6[8]~44      ; combout          ;
 ; |Shifter|inst6[8]~45  ; |Shifter|inst6[8]~45      ; combout          ;
-; |Shifter|inst6[7]     ; |Shifter|inst6[7]         ; combout          ;
 ; |Shifter|inst6[6]     ; |Shifter|inst6[6]         ; combout          ;
-; |Shifter|inst6[4]     ; |Shifter|inst6[4]         ; combout          ;
-; |Shifter|inst6[3]     ; |Shifter|inst6[3]         ; combout          ;
-; |Shifter|inst6[2]     ; |Shifter|inst6[2]         ; combout          ;
+; |Shifter|inst6[5]     ; |Shifter|inst6[5]         ; combout          ;
 ; |Shifter|inst6[1]     ; |Shifter|inst6[1]         ; combout          ;
+; |Shifter|inst10~0     ; |Shifter|inst10~0         ; combout          ;
+; |Shifter|inst10~1     ; |Shifter|inst10~1         ; combout          ;
+; |Shifter|inst10~2     ; |Shifter|inst10~2         ; combout          ;
+; |Shifter|inst10~3     ; |Shifter|inst10~3         ; combout          ;
+; |Shifter|inst10~5     ; |Shifter|inst10~5         ; combout          ;
+; |Shifter|inst10~6     ; |Shifter|inst10~6         ; combout          ;
+; |Shifter|inst10~7     ; |Shifter|inst10~7         ; combout          ;
+; |Shifter|inst10~8     ; |Shifter|inst10~8         ; combout          ;
+; |Shifter|inst10~9     ; |Shifter|inst10~9         ; combout          ;
+; |Shifter|N            ; |Shifter|N                ; padio            ;
+; |Shifter|OUTPUT[31]   ; |Shifter|OUTPUT[31]       ; padio            ;
 ; |Shifter|OUTPUT[30]   ; |Shifter|OUTPUT[30]       ; padio            ;
 ; |Shifter|OUTPUT[29]   ; |Shifter|OUTPUT[29]       ; padio            ;
 ; |Shifter|OUTPUT[28]   ; |Shifter|OUTPUT[28]       ; padio            ;
@@ -183,13 +191,9 @@ The following table displays output ports that toggle between 1 and 0 during sim
 ; |Shifter|OUTPUT[12]   ; |Shifter|OUTPUT[12]       ; padio            ;
 ; |Shifter|OUTPUT[11]   ; |Shifter|OUTPUT[11]       ; padio            ;
 ; |Shifter|OUTPUT[10]   ; |Shifter|OUTPUT[10]       ; padio            ;
-; |Shifter|OUTPUT[9]    ; |Shifter|OUTPUT[9]        ; padio            ;
 ; |Shifter|OUTPUT[8]    ; |Shifter|OUTPUT[8]        ; padio            ;
-; |Shifter|OUTPUT[7]    ; |Shifter|OUTPUT[7]        ; padio            ;
 ; |Shifter|OUTPUT[6]    ; |Shifter|OUTPUT[6]        ; padio            ;
-; |Shifter|OUTPUT[4]    ; |Shifter|OUTPUT[4]        ; padio            ;
-; |Shifter|OUTPUT[3]    ; |Shifter|OUTPUT[3]        ; padio            ;
-; |Shifter|OUTPUT[2]    ; |Shifter|OUTPUT[2]        ; padio            ;
+; |Shifter|OUTPUT[5]    ; |Shifter|OUTPUT[5]        ; padio            ;
 ; |Shifter|OUTPUT[1]    ; |Shifter|OUTPUT[1]        ; padio            ;
 ; |Shifter|INPUT[23]    ; |Shifter|INPUT[23]~corein ; combout          ;
 ; |Shifter|SRA1         ; |Shifter|SRA1~corein      ; combout          ;
@@ -224,12 +228,18 @@ The following table displays output ports that do not toggle to 1 during simulat
 +----------------------+---------------------------+------------------+
 ; Node Name            ; Output Port Name          ; Output Port Type ;
 +----------------------+---------------------------+------------------+
-; |Shifter|inst6[31]~0 ; |Shifter|inst6[31]~0      ; combout          ;
 ; |Shifter|inst6[9]~42 ; |Shifter|inst6[9]~42      ; combout          ;
-; |Shifter|inst6[5]    ; |Shifter|inst6[5]         ; combout          ;
+; |Shifter|inst6[9]~43 ; |Shifter|inst6[9]~43      ; combout          ;
+; |Shifter|inst6[7]    ; |Shifter|inst6[7]         ; combout          ;
+; |Shifter|inst6[4]    ; |Shifter|inst6[4]         ; combout          ;
+; |Shifter|inst6[3]    ; |Shifter|inst6[3]         ; combout          ;
+; |Shifter|inst6[2]    ; |Shifter|inst6[2]         ; combout          ;
 ; |Shifter|inst6[0]    ; |Shifter|inst6[0]         ; combout          ;
-; |Shifter|OUTPUT[31]  ; |Shifter|OUTPUT[31]       ; padio            ;
-; |Shifter|OUTPUT[5]   ; |Shifter|OUTPUT[5]        ; padio            ;
+; |Shifter|OUTPUT[9]   ; |Shifter|OUTPUT[9]        ; padio            ;
+; |Shifter|OUTPUT[7]   ; |Shifter|OUTPUT[7]        ; padio            ;
+; |Shifter|OUTPUT[4]   ; |Shifter|OUTPUT[4]        ; padio            ;
+; |Shifter|OUTPUT[3]   ; |Shifter|OUTPUT[3]        ; padio            ;
+; |Shifter|OUTPUT[2]   ; |Shifter|OUTPUT[2]        ; padio            ;
 ; |Shifter|OUTPUT[0]   ; |Shifter|OUTPUT[0]        ; padio            ;
 ; |Shifter|INPUT[31]   ; |Shifter|INPUT[31]~corein ; combout          ;
 ; |Shifter|INPUT[22]   ; |Shifter|INPUT[22]~corein ; combout          ;
@@ -250,8 +260,15 @@ The following table displays output ports that do not toggle to 0 during simulat
 ; Node Name            ; Output Port Name         ; Output Port Type ;
 +----------------------+--------------------------+------------------+
 ; |Shifter|inst6[9]~42 ; |Shifter|inst6[9]~42     ; combout          ;
-; |Shifter|inst6[5]    ; |Shifter|inst6[5]        ; combout          ;
-; |Shifter|OUTPUT[5]   ; |Shifter|OUTPUT[5]       ; padio            ;
+; |Shifter|inst6[7]    ; |Shifter|inst6[7]        ; combout          ;
+; |Shifter|inst6[4]    ; |Shifter|inst6[4]        ; combout          ;
+; |Shifter|inst6[3]    ; |Shifter|inst6[3]        ; combout          ;
+; |Shifter|inst10~4    ; |Shifter|inst10~4        ; combout          ;
+; |Shifter|inst10~10   ; |Shifter|inst10~10       ; combout          ;
+; |Shifter|OUTPUT[7]   ; |Shifter|OUTPUT[7]       ; padio            ;
+; |Shifter|OUTPUT[4]   ; |Shifter|OUTPUT[4]       ; padio            ;
+; |Shifter|OUTPUT[3]   ; |Shifter|OUTPUT[3]       ; padio            ;
+; |Shifter|Z           ; |Shifter|Z               ; padio            ;
 ; |Shifter|SLL8        ; |Shifter|SLL8~corein     ; combout          ;
 ; |Shifter|INPUT[1]    ; |Shifter|INPUT[1]~corein ; combout          ;
 +----------------------+--------------------------+------------------+
@@ -267,5 +284,22 @@ The following table displays output ports that do not toggle to 0 during simulat
 +--------------------+
 ; Simulator Messages ;
 +--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Jul 17 16:44:36 2025
+Info: Command: quartus_sim --simulation_results_format=VWF MIC1 -c MIC1
+Info (324025): Using vector source file "D:/aHMED MUITO NOVO/SHIFTER.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      80.60 %
+Info (328052): Number of transitions in simulation is 363
+Info (324045): Vector file MIC1.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4473 megabytes
+    Info: Processing ended: Thu Jul 17 16:44:37 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 
